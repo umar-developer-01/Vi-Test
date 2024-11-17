@@ -29,8 +29,8 @@ describe("POST /sum", () => {
     //Assert that the function was called with the correct input values
     expect(prismaClient.sum.create).toHaveBeenCalledWith({
       data: {
-        a: 1,
-        b: 2,
+        a: 11,
+        b: 22,
         result: 3
       }
     });
